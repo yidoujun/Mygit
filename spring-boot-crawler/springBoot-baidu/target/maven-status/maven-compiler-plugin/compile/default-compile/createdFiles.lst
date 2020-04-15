@@ -1,0 +1,8 @@
+com\ifind\util\TimeWaitUtil.class
+com\ifind\dao\ArticleDao.class
+com\ifind\entity\Article.class
+com\ifind\BaiduApplication.class
+com\ifind\util\BaseSite.class
+com\ifind\webmagic\BaiduXuShuPipeline.class
+com\ifind\webmagic\BaiduXuShuTask.class
+com\ifind\webmagic\BaiduXuShuProcessor.class

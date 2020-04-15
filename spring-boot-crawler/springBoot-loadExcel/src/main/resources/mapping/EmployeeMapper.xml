@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ifind.dao.EmployeeDao">
+    <resultMap id="rm" type="com.ifind.entity.Employee">
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="emp_name" property="empName" jdbcType="VARCHAR" />
+        <result column="emp_phone" property="empPhone" jdbcType="VARCHAR" />
+        <result column="emp_position" property="empPosition" jdbcType="VARCHAR" />
+        <result column="emp_department" property="empDepartment" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <select id="getEmpByMoblie" resultMap="rm" parameterType="java.lang.String">
+        SELECT
+            id,
+            emp_name,
+            emp_phone,
+            emp_position,
+            emp_department
+        FROM
+            t_emp
+        WHERE
+            emp_phone = #{moblie}
+    </select>
+
+    <insert id="addEmployee" parameterType="com.ifind.entity.Employee">
+        INSERT INTO
+            t_emp (emp_name, emp_phone, emp_position, emp_department)
+        VALUES
+            (#{empName}, #{empPhone}, #{empPosition}, #{empDepartment})
+    </insert>
+
+
+</mapper>

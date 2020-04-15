@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b459d5ef-db42-4a1c-a0e3-3cbcbe2b6492" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/download/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\download\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZHdQJN3EMuTKFiIGZlqxM9s2e9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springBoot-thread/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javacode\spring-boot-crawler\springBoot-thread\src\main\resources" />
+      <recent name="D:\javacode\spring-boot-crawler\springBoot-pdftest\src\main\resources" />
+      <recent name="D:\javacode\spring-boot-crawler\springBoot-pdf\src\main\resources\static" />
+      <recent name="D:\javacode\spring-boot-crawler\springBoot-pdf\src\main\resources" />
+      <recent name="D:\javacode\spring-boot-crawler\springBoot-word\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ThreadApplication">
+    <configuration name="TestPDF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ifind.util.TestPDF" />
+      <module name="springBoot-pdftest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ifind.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springBoot-excel" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ifind.ExcelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoadExcelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springBoot-loadExcel" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ifind.LoadExcelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PdfApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springBoot-pdf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ifind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ifind.PdfApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PdfTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springBoot-pdftest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ifind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ifind.PdfTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springBoot-thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ifind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ifind.ThreadApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springBoot-word" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ifind.WordApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ThreadApplication" />
+        <item itemvalue="Spring Boot.PdfTestApplication" />
+        <item itemvalue="Application.TestPDF" />
+        <item itemvalue="Spring Boot.PdfApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b459d5ef-db42-4a1c-a0e3-3cbcbe2b6492" name="Default Changelist" comment="" />
+      <created>1584499935361</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584499935361</updated>
+      <workItem from="1584499938105" duration="3751000" />
+      <workItem from="1584511581755" duration="27000" />
+      <workItem from="1584511634713" duration="23384000" />
+      <workItem from="1584581188789" duration="39360000" />
+      <workItem from="1584667753758" duration="28303000" />
+      <workItem from="1584926414616" duration="25475000" />
+      <workItem from="1584959648125" duration="5498000" />
+      <workItem from="1585013092055" duration="31726000" />
+      <workItem from="1585099495946" duration="4768000" />
+      <workItem from="1585115315392" duration="7000" />
+      <workItem from="1585116184891" duration="2000" />
+      <workItem from="1585122625129" duration="1738000" />
+      <workItem from="1585392001998" duration="3617000" />
+      <workItem from="1585532851229" duration="5530000" />
+      <workItem from="1586252021210" duration="609000" />
+      <workItem from="1586256406397" duration="236000" />
+      <workItem from="1586257334885" duration="1215000" />
+      <workItem from="1586260910626" duration="4530000" />
+      <workItem from="1586309085234" duration="506000" />
+      <workItem from="1586310287389" duration="4875000" />
+      <workItem from="1586327043716" duration="2688000" />
+      <workItem from="1586413254487" duration="386000" />
+      <workItem from="1586930079595" duration="1586000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="312" y="87" key="#Project_Structure" timestamp="1585532885892">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="312" y="87" key="#Project_Structure/0.0.1440.860@0.0.1440.860" timestamp="1585532885892" />
+    <state x="348" y="58" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585019559036">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="348" y="58" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1585019559036" />
+    <state x="442" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586265826439">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="442" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1586265826439" />
+    <state x="899" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1586264508012">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="899" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1586264508012" />
+    <state x="633" y="368" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585028195098">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="633" y="368" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.860@0.0.1440.860" timestamp="1585028195098" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585099630927">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.860@0.0.1440.860" timestamp="1585099630927" />
+    <state x="450" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585035118548">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="450" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860@0.0.1440.860" timestamp="1585035118548" />
+    <state x="428" y="280" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1584931789728">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="428" y="280" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.860@0.0.1440.860" timestamp="1584931789728" />
+    <state x="500" y="155" key="FileChooserDialogImpl" timestamp="1585021790451">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="500" y="155" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1585021790451" />
+    <state width="1396" height="166" key="GridCell.Tab.0.bottom" timestamp="1586316049620">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="166" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1586316049620" />
+    <state width="1396" height="166" key="GridCell.Tab.0.center" timestamp="1586316049620">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="166" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1586316049620" />
+    <state width="1396" height="166" key="GridCell.Tab.0.left" timestamp="1586316049620">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="166" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1586316049620" />
+    <state width="1396" height="166" key="GridCell.Tab.0.right" timestamp="1586316049620">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="166" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1586316049620" />
+    <state width="1396" height="166" key="GridCell.Tab.1.bottom" timestamp="1586316049621">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="166" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1586316049621" />
+    <state width="1396" height="166" key="GridCell.Tab.1.center" timestamp="1586316049620">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="166" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1586316049620" />
+    <state width="1396" height="166" key="GridCell.Tab.1.left" timestamp="1586316049620">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="166" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1586316049620" />
+    <state width="1396" height="166" key="GridCell.Tab.1.right" timestamp="1586316049621">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="166" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1586316049621" />
+    <state width="1396" height="166" key="GridCell.Tab.2.bottom" timestamp="1586316049622">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="166" key="GridCell.Tab.2.bottom/0.0.1440.860@0.0.1440.860" timestamp="1586316049622" />
+    <state width="1396" height="166" key="GridCell.Tab.2.center" timestamp="1586316049621">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="166" key="GridCell.Tab.2.center/0.0.1440.860@0.0.1440.860" timestamp="1586316049621" />
+    <state width="1396" height="166" key="GridCell.Tab.2.left" timestamp="1586316049621">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="166" key="GridCell.Tab.2.left/0.0.1440.860@0.0.1440.860" timestamp="1586316049621" />
+    <state width="1396" height="166" key="GridCell.Tab.2.right" timestamp="1586316049622">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="166" key="GridCell.Tab.2.right/0.0.1440.860@0.0.1440.860" timestamp="1586316049622" />
+    <state x="225" y="85" key="SettingsEditor" timestamp="1586334672027">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="225" y="85" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1586334672027" />
+    <state x="400" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1586310305847">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="400" y="252" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1586310305847" />
+    <state x="706" y="133" width="725" height="680" key="dock-window-1" timestamp="1585041063335">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="706" y="133" width="725" height="680" key="dock-window-1/0.0.1440.860@0.0.1440.860" timestamp="1585041063335" />
+    <state x="327" y="0" width="786" height="860" key="find.popup" timestamp="1584967652200">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="327" y="0" width="786" height="860" key="find.popup/0.0.1440.860@0.0.1440.860" timestamp="1584967652200" />
+    <state x="181" y="144" key="new project wizard" timestamp="1586257442465">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="181" y="144" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1586257442465" />
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1585055148193">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1585055148193" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springBoot-cnki/src/main/java/com/ifind/service/CnkiProcessor.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

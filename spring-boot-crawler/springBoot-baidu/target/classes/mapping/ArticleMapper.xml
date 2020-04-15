@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ifind.dao.ArticleDao">
+    <!--<resultMap id="rm" type="com.ifind.entity.Article">
+        <id property="id" javaType="BIGINT" column="id" />
+        <result property="articleTitle" javaType="VARCHAR" column="article_title" />
+        <result property="articleAuthor" javaType="VARCHAR" column="article_author" />
+        <result property="articlePub" javaType="VARCHAR" column="article_pub" />
+        <result property="articleReference" javaType="VARCHAR" column="article_reference" />
+        <result property="articleReadNum" javaType="VARCHAR" column="article_read_num" />
+        <result property="articleLike" javaType="VARCHAR" column="article_like" />
+    </resultMap>-->
+
+    <insert id="insertArticle" parameterType="com.ifind.entity.Article">
+        INSERT INTO
+            t_article(article_title, article_author, article_pub, article_reference, article_read_num, article_like)
+        VALUES
+            (#{articleTitle}, #{articleAuthor}, #{articlePub}, #{articleReference}, #{articleReadNum}, #{articleLike})
+
+    </insert>
+
+</mapper>

@@ -1,0 +1,16 @@
+# 配置启动端口
+server:
+  port: 8080
+
+spring:
+  # 数据库连接
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://47.98.50.37:5432/dbtest
+    username: ydj
+    password: ydjws
+
+# mybatis配置
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: com.ifind.entity
