@@ -33,3 +33,38 @@ git push -u origin master
 
 4、push到远程
 ----->git push origin master
+
+-----------------------------------------------
+提交新增的文件
+
+1、查看新增的文件
+----->git status
+
+2、将文件从工作区添加到暂存区
+----->git add 文件名
+
+3、再次查看
+----->git status
+
+4、将文件从暂存区添加到版本区
+---->git commit -m "注释"
+
+5、push到远程
+---->git push origin master
+
+------------------------------------------------
+删除文件
+
+1、删除命令
+---->git rm 文件名字
+
+2、查看状态
+---->git status
+
+3、commit
+---->git commit -m "注释"
+
+4、push到远程
+---->git push origin master
+
+
