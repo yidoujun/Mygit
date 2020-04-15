@@ -1,0 +1,35 @@
+1、在本地电脑创建一个文件夹  
+---->mkdir fileName
+
+2、初始化文件夹
+---->git init
+
+3、将此文件夹下面的内容上传到github自己的仓库
+---->git add */想要上传的文件       *：代表所有文件
+
+4、提交
+---->git commit -m "提交说明"
+
+5、从本地提交到远程仓库
+---->git remote add origin https://github.com/github用户名/远程仓库名.git
+
+---->请注意：如果非第一次提交，再这么提交，会报错：fatal: remote origin already exists.
+我们需要输入：git remote rm origin
+
+6、push到远程仓库
+git push -u origin master
+
+----------------------------------------------------
+提交修改的文件
+
+1、查看修改的文件
+----->git status
+
+2、add此文件
+----->git add modified后面的文件路径(来源于第一步操作)
+
+3、commit文件
+----->git commit -m "注释"
+
+4、push到远程
+----->git push origin master
