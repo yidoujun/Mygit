@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
  * 测试java8新特性--Stream
  *
  * @author yidujun
- * @date 2020/4/15 20:35
+ * @date 2020/4/16 20:34
  */
 public class StreamTest {
 
@@ -167,8 +167,11 @@ public class StreamTest {
         for (User u:users) {
             System.out.println(u);
         }
-    }
 
+        toMapDemo(users);
+
+    }
+    // 内部类
     private class User {
         private Integer id;
         private String userName;
@@ -211,6 +214,22 @@ public class StreamTest {
                     ", pwd='" + pwd + '\'' +
                     '}';
         }
+    }
+
+
+    /**
+     * toMap方法，可以指定对象两个字段做映射
+     */
+    public void toMapDemo(List<User> users){
+        Map<Integer, String> userMap = users.stream().collect(Collectors.toMap(User::getId, User::getUserName));
+        /*for (Map.Entry<Integer, String> map :userMap.entrySet()) {
+            System.out.println(map.getKey());
+            System.out.println(map.getValue());
+        }*/
+        // 神操作
+        String[] split = {"1", "2", "3", "4"};
+        String userNames = Arrays.stream(split).map(Integer::valueOf).map(userMap::get).collect(Collectors.joining(","));
+        System.out.println(userNames);
     }
 
 }
