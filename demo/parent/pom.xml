@@ -27,6 +27,7 @@
         <shiro.version>1.5.2</shiro.version>
         <slf4j-api.version>1.7.24</slf4j-api.version>
         <slf4j-simple.version>1.7.25</slf4j-simple.version>
+        <lombok.version>1.16.22</lombok.version>
         <reactor.version>3.3.1.RELEASE</reactor.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -61,6 +62,12 @@
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-simple</artifactId>
                 <version>${slf4j-simple.version}</version>
+            </dependency>
+            <!--Lombok插件依赖-->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
