@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd6e521b-7fe3-44fe-a74c-b02225397d74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/ydj/demo/annotation/MyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/ydj/demo/collections/CollectionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/com/ydj/demo/java8/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/ydj/demo/java8/StreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +67,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
-  <component name="RunManager" selected="JUnit.StreamTest.java8StreamTest">
+  <component name="RunManager" selected="JUnit.CollectionsTest">
+    <configuration name="CollectionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ydj.demo.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ydj.demo.collections" />
+      <option name="MAIN_CLASS_NAME" value="com.ydj.demo.collections.CollectionsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CustomRealmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="common" />
       <extension name="coverage">
@@ -74,22 +94,6 @@
       <option name="PACKAGE_NAME" value="com.ydj.demo.shiro" />
       <option name="MAIN_CLASS_NAME" value="com.ydj.demo.shiro.CustomRealmTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IniRealmTest.testAutentication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ydj.demo.shiro.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ydj.demo.shiro" />
-      <option name="MAIN_CLASS_NAME" value="com.ydj.demo.shiro.IniRealmTest" />
-      <option name="METHOD_NAME" value="testAutentication" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CollectionsTest" />
         <item itemvalue="JUnit.StreamTest.java8StreamTest" />
         <item itemvalue="JUnit.PermissonTest" />
         <item itemvalue="JUnit.StreamTest" />
         <item itemvalue="JUnit.CustomRealmTest" />
-        <item itemvalue="JUnit.IniRealmTest.testAutentication" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +167,8 @@
       <workItem from="1586937127303" duration="3589000" />
       <workItem from="1586941268130" duration="2783000" />
       <workItem from="1586948670775" duration="7376000" />
-      <workItem from="1587000321436" duration="13463000" />
+      <workItem from="1587000321436" duration="13997000" />
+      <workItem from="1587086985480" duration="13538000" />
     </task>
     <task id="LOCAL-00001" summary="说明：添加注释">
       <created>1586943161267</created>
@@ -193,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587029230694</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="说明：Stream添加新方法">
+      <created>1587043529235</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587043529235</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +221,8 @@
     <MESSAGE value="说明：&#10;1、新增了IniRealmTest类，用于测试shiro自带的Realm&#10;2、新增了自定义CustomRealm类，继承AuthorizingRealm" />
     <MESSAGE value="说明：Java8Stream一些用法" />
     <MESSAGE value="说明：&#10;1、添加了lombok依赖&#10;2、新增权限树构建方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="说明：&#10;1、添加了lombok依赖&#10;2、新增权限树构建方法" />
+    <MESSAGE value="说明：Stream添加新方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="说明：Stream添加新方法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="926" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586948586995">
@@ -220,54 +233,54 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="946" y="214" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1587027065560" />
-    <state x="320" y="0" key="CommitChangelistDialog2" timestamp="1587029230018">
+    <state x="320" y="0" key="CommitChangelistDialog2" timestamp="1587043528439">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="320" y="0" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1587029230018" />
-    <state width="1396" height="448" key="GridCell.Tab.0.bottom" timestamp="1587043500561">
+    <state x="320" y="0" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1587043528439" />
+    <state width="1396" height="271" key="GridCell.Tab.0.bottom" timestamp="1587103002428">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="448" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1587043500561" />
-    <state width="1396" height="448" key="GridCell.Tab.0.center" timestamp="1587043500561">
+    <state width="1396" height="271" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1587103002428" />
+    <state width="1396" height="271" key="GridCell.Tab.0.center" timestamp="1587103002427">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="448" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1587043500561" />
-    <state width="1396" height="448" key="GridCell.Tab.0.left" timestamp="1587043500561">
+    <state width="1396" height="271" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1587103002427" />
+    <state width="1396" height="271" key="GridCell.Tab.0.left" timestamp="1587103002427">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="448" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1587043500561" />
-    <state width="1396" height="448" key="GridCell.Tab.0.right" timestamp="1587043500561">
+    <state width="1396" height="271" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1587103002427" />
+    <state width="1396" height="271" key="GridCell.Tab.0.right" timestamp="1587103002428">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="448" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1587043500561" />
-    <state width="1396" height="448" key="GridCell.Tab.1.bottom" timestamp="1587043500561">
+    <state width="1396" height="271" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1587103002428" />
+    <state width="1396" height="271" key="GridCell.Tab.1.bottom" timestamp="1587103002429">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="448" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1587043500561" />
-    <state width="1396" height="448" key="GridCell.Tab.1.center" timestamp="1587043500561">
+    <state width="1396" height="271" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1587103002429" />
+    <state width="1396" height="271" key="GridCell.Tab.1.center" timestamp="1587103002428">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="448" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1587043500561" />
-    <state width="1396" height="448" key="GridCell.Tab.1.left" timestamp="1587043500561">
+    <state width="1396" height="271" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1587103002428" />
+    <state width="1396" height="271" key="GridCell.Tab.1.left" timestamp="1587103002428">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="448" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1587043500561" />
-    <state width="1396" height="448" key="GridCell.Tab.1.right" timestamp="1587043500561">
+    <state width="1396" height="271" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1587103002428" />
+    <state width="1396" height="271" key="GridCell.Tab.1.right" timestamp="1587103002429">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="448" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1587043500561" />
+    <state width="1396" height="271" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1587103002429" />
     <state x="221" y="61" key="SettingsEditor" timestamp="1587025130277">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="221" y="61" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1587025130277" />
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1587029240765">
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1587043536354">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1587029240765" />
-    <state x="537" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1587000321432">
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1587043536354" />
+    <state x="537" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1587087042308">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="537" y="321" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1587000321432" />
+    <state x="537" y="321" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1587087042308" />
     <state x="90" y="123" key="new project wizard" timestamp="1586937286353">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

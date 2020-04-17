@@ -1,5 +1,6 @@
 package com.ydj.demo.java8;
 
+import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
 
 import java.util.*;
@@ -7,6 +8,10 @@ import java.util.stream.Collectors;
 
 /**
  * 测试java8新特性--Stream
+ *
+ * 终结流操作：forEach和collect
+ *
+ * peek和map的区别：前者不会返回，后面会返回
  *
  * @author yidujun
  * @date 2020/4/16 20:34
@@ -168,8 +173,12 @@ public class StreamTest {
             System.out.println(u);
         }
 
-        toMapDemo(users);
+        /**
+        * toMap方法，可以指定对象两个字段做映射
+        */
+//        toMapDemo(users);
 
+        matchingDemo(users);
     }
     // 内部类
     private class User {
@@ -226,10 +235,28 @@ public class StreamTest {
             System.out.println(map.getKey());
             System.out.println(map.getValue());
         }*/
-        // 神操作
+        // 神操作--直接提取两个属性进行映射
         String[] split = {"1", "2", "3", "4"};
         String userNames = Arrays.stream(split).map(Integer::valueOf).map(userMap::get).collect(Collectors.joining(","));
         System.out.println(userNames);
+    }
+
+    /**
+     * map的神操作啊
+     */
+    public void matchingDemo(List<User> users){
+        Map<Integer, String> userMap = users.stream().collect(Collectors.toMap(User::getId, User::getUserName));
+        String[] split = {"1", "2", "4"};
+        // e的值就是1、2、4
+        List<Object> matching = Arrays.stream(split).map(e -> {                                     // 此处的e是split字符串
+            Integer id = Integer.valueOf(e);
+            User user = new User();
+            user.setId(id);
+            user.setUserName(userMap.get(id));
+            return user;
+        }).filter(e -> StringUtils.isNotBlank(e.getUserName())).collect(Collectors.toList());       // 此处的e是User对象
+
+        System.out.println(matching);
     }
 
 }
