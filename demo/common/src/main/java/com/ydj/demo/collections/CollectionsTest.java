@@ -15,8 +15,8 @@ public class CollectionsTest {
 
     @Test
     public void CollectionsAllTest() {
-        singletonListDemo();
-
+//        singletonListDemo();
+        isPass();
     }
 
     /**
@@ -26,5 +26,14 @@ public class CollectionsTest {
         Integer id = 0;
         List<Integer> singleId = Collections.singletonList(id);
         System.out.println(singleId);
+    }
+
+    public void isPass(){
+        int a = 1;
+        int b = 2;
+        System.out.println("2232323");
+        if(a!=1 || b!=2) {
+            System.out.println("1111111");
+        }
     }
 }
