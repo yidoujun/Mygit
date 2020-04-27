@@ -28,6 +28,7 @@
         <slf4j-api.version>1.7.24</slf4j-api.version>
         <slf4j-simple.version>1.7.25</slf4j-simple.version>
         <lombok.version>1.16.22</lombok.version>
+        <json.version>1.2.47</json.version>
         <commons-lang3.version>3.4</commons-lang3.version>
         <reactor.version>3.3.1.RELEASE</reactor.version>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -74,6 +75,12 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
                 <version>${commons-lang3.version}</version>
+            </dependency>
+            <!--json-->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${json.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

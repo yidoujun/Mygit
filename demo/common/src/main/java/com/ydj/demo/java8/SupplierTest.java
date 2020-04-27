@@ -17,8 +17,8 @@ public class SupplierTest {
         Supplier<User> supplier = () -> new User();
         System.out.println(supplier);
         User user = supplier.get();
-        System.out.println(user.toString());
-        System.out.println(supplier.get().toString());
+        System.out.println(user);
+        System.out.println(supplier.get());
     }
     // 内部类
     private class User {
@@ -55,13 +55,13 @@ public class SupplierTest {
             return this.pwd;
         }
 
-        @Override
+        /*@Override
         public String toString() {
             return "User{" +
                     "id=" + id +
                     ", userName='" + userName + '\'' +
                     ", pwd='" + pwd + '\'' +
                     '}';
-        }
+        }*/
     }
 }
