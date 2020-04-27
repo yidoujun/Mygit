@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd6e521b-7fe3-44fe-a74c-b02225397d74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/ydj/demo/annotation/AnnotationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/ydj/demo/java8/SupplierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/ydj/demo/redis/RedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/ydj/demo/design/strategy/DealSina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/ydj/demo/design/strategy/DealStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/ydj/demo/design/strategy/DealWeChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/ydj/demo/design/strategy/StrategyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/ydj/demo/annotation/MyAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/ydj/demo/annotation/MyAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/ydj/demo/collections/CollectionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/ydj/demo/collections/CollectionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/ydj/demo/design/strategy/StatementClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/ydj/demo/design/strategy/DealContext.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,7 +53,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1aZJLHZY9N2drQMc2RE2cOu9XRm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -67,7 +69,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
-  <component name="RunManager" selected="JUnit.SupplierTest">
+  <component name="RunManager" selected="JUnit.StrategyTest">
     <configuration name="CollectionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="common" />
       <extension name="coverage">
@@ -83,21 +85,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermissonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ydj.demo.permission.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ydj.demo.permission" />
-      <option name="MAIN_CLASS_NAME" value="com.ydj.demo.permission.PermissonTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="common" />
       <extension name="coverage">
@@ -108,6 +95,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ydj.demo.redis" />
       <option name="MAIN_CLASS_NAME" value="com.ydj.demo.redis.RedisTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrategyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ydj.demo.design.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ydj.demo.design.strategy" />
+      <option name="MAIN_CLASS_NAME" value="com.ydj.demo.design.strategy.StrategyTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StrategyTest" />
         <item itemvalue="JUnit.SupplierTest" />
         <item itemvalue="JUnit.RedisTest" />
         <item itemvalue="JUnit.CollectionsTest" />
         <item itemvalue="JUnit.StreamTest.java8StreamTest" />
-        <item itemvalue="JUnit.PermissonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +176,9 @@
       <workItem from="1587518640577" duration="1933000" />
       <workItem from="1587605510493" duration="6262000" />
       <workItem from="1587691534721" duration="1859000" />
-      <workItem from="1587864256179" duration="2521000" />
+      <workItem from="1587864256179" duration="4202000" />
+      <workItem from="1587950807693" duration="4537000" />
+      <workItem from="1587958562888" duration="3633000" />
     </task>
     <task id="LOCAL-00001" summary="说明：添加注释">
       <created>1586943161267</created>
@@ -218,7 +222,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587122453908</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="说明：新增了注解类和Collections和Supplier">
+      <created>1587903627413</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587903627413</updated>
+    </task>
+    <task id="LOCAL-00008" summary="说明：新增通用控制层返回Json格式数据工具类">
+      <created>1587957326337</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587957326337</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,65 +254,67 @@
     <MESSAGE value="说明：&#10;1、添加了lombok依赖&#10;2、新增权限树构建方法" />
     <MESSAGE value="说明：Stream添加新方法" />
     <MESSAGE value="说明：新增了注解类和Collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="说明：新增了注解类和Collections" />
+    <MESSAGE value="说明：新增了注解类和Collections和Supplier" />
+    <MESSAGE value="说明：新增通用控制层返回Json格式数据工具类" />
+    <option name="LAST_COMMIT_MESSAGE" value="说明：新增通用控制层返回Json格式数据工具类" />
   </component>
   <component name="WindowStateProjectService">
     <state x="926" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586948586995">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="926" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1586948586995" />
-    <state x="946" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1587027065560">
+    <state x="946" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1587965282798">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="946" y="214" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1587027065560" />
-    <state x="320" y="0" key="CommitChangelistDialog2" timestamp="1587122453277">
+    <state x="946" y="214" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1587965282798" />
+    <state x="320" y="0" key="CommitChangelistDialog2" timestamp="1587957361110">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="320" y="0" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1587122453277" />
-    <state width="1396" height="254" key="GridCell.Tab.0.bottom" timestamp="1587903601432">
+    <state x="320" y="0" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1587957361110" />
+    <state width="1396" height="199" key="GridCell.Tab.0.bottom" timestamp="1587967005249">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="254" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1587903601432" />
-    <state width="1396" height="254" key="GridCell.Tab.0.center" timestamp="1587903601432">
+    <state width="1396" height="199" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1587967005249" />
+    <state width="1396" height="199" key="GridCell.Tab.0.center" timestamp="1587967005249">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="254" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1587903601432" />
-    <state width="1396" height="254" key="GridCell.Tab.0.left" timestamp="1587903601432">
+    <state width="1396" height="199" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1587967005249" />
+    <state width="1396" height="199" key="GridCell.Tab.0.left" timestamp="1587967005249">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="254" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1587903601432" />
-    <state width="1396" height="254" key="GridCell.Tab.0.right" timestamp="1587903601432">
+    <state width="1396" height="199" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1587967005249" />
+    <state width="1396" height="199" key="GridCell.Tab.0.right" timestamp="1587967005249">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="254" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1587903601432" />
-    <state width="1396" height="279" key="GridCell.Tab.1.bottom" timestamp="1587564584017">
+    <state width="1396" height="199" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1587967005249" />
+    <state width="1396" height="199" key="GridCell.Tab.1.bottom" timestamp="1587967005250">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1587564584017" />
-    <state width="1396" height="279" key="GridCell.Tab.1.center" timestamp="1587564584017">
+    <state width="1396" height="199" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1587967005250" />
+    <state width="1396" height="199" key="GridCell.Tab.1.center" timestamp="1587967005249">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1587564584017" />
-    <state width="1396" height="279" key="GridCell.Tab.1.left" timestamp="1587564584017">
+    <state width="1396" height="199" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1587967005249" />
+    <state width="1396" height="199" key="GridCell.Tab.1.left" timestamp="1587967005249">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1587564584017" />
-    <state width="1396" height="279" key="GridCell.Tab.1.right" timestamp="1587564584017">
+    <state width="1396" height="199" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1587967005249" />
+    <state width="1396" height="199" key="GridCell.Tab.1.right" timestamp="1587967005250">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1587564584017" />
+    <state width="1396" height="199" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1587967005250" />
     <state x="221" y="61" key="SettingsEditor" timestamp="1587025130277">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="221" y="61" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1587025130277" />
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1587123158426">
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1587957337569">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1587123158426" />
-    <state x="537" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1587864288375">
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1587957337569" />
+    <state x="537" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1587958576254">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="537" y="321" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1587864288375" />
+    <state x="537" y="321" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1587958576254" />
     <state x="90" y="123" key="new project wizard" timestamp="1586937286353">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -303,9 +323,20 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="376" y="190" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1587040024017" />
-    <state x="713" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1587004037112">
+    <state x="713" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1587966073895">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="713" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1587004037112" />
+    <state x="713" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1587966073895" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/ydj/demo/design/strategy/StrategyTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
