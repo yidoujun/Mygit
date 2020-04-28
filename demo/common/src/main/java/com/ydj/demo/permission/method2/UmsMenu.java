@@ -3,6 +3,7 @@ package com.ydj.demo.permission.method2;
 import lombok.*;
 
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * 菜单按钮
@@ -28,17 +29,5 @@ public class UmsMenu implements Serializable {
      */
     private String title;
 
-    @Override
-    public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(getClass().getSimpleName());
-        sb.append("[");
-        sb.append("Hash = ").append(hashCode());
-        sb.append(", id=").append(id);
-        sb.append(", parentId=").append(parentId);
-        sb.append(", title=").append(title);
-        sb.append(", serialVersionUID=").append(serialVersionUID);
-        sb.append("]");
-        return sb.toString();
-    }
+
 }

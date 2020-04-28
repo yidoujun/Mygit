@@ -1,5 +1,6 @@
 package com.ydj.demo.permission.method2;
 
+import com.ydj.demo.json.JSONUtils;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.beans.BeanUtils;
@@ -47,21 +48,20 @@ public class MenuTest {
 
     @Test
     public void treeList() {
-        String name = "易都军";
-        System.out.println(name.substring(0, 1));
-//        System.out.println("构造前：");
-//        for (UmsMenu menu : menuList) {
-//            System.out.println(menu);
-//        }
-//
-//        List<UmsMenuNode> result = menuList.stream()
-//                .filter(menu -> menu.getParentId().equals(0L))
-//                .map(menu -> covertMenuNode(menu, menuList))
-//                .collect(Collectors.toList());
-//        System.out.println("构造后：");
-//        for (UmsMenuNode menu : result) {
-//            System.out.println(menu.getChildren());
-//        }
+        System.out.println("构造前：");
+        for (UmsMenu menu : menuList) {
+            System.out.println(menu);
+        }
+
+        List<UmsMenuNode> result = menuList.stream()
+                .filter(menu -> menu.getParentId().equals(0L))
+                .map(menu -> covertMenuNode(menu, menuList))
+                .collect(Collectors.toList());
+        System.out.println("构造后：");
+        for (UmsMenuNode menu : result) {
+            System.out.println(menu);
+        }
+//        System.out.println(JSONUtils.toJsonString(result));
     }
 
     /**

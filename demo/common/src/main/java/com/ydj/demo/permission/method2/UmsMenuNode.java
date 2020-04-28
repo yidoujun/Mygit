@@ -10,16 +10,16 @@ import java.util.List;
  * @author yidujun
  * @date 2020/4/28 10:01
  */
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
+@Getter
+@Setter
 public class UmsMenuNode extends UmsMenu{
 
     private List<UmsMenuNode> children;
 
-    @Override
+    //    @Override
     public String toString() {
         return "UmsMenuNode{" +
+               super.toString() +
                 "children=" + children +
                 '}';
     }
