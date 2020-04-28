@@ -1,4 +1,4 @@
-package com.ydj.demo.permission;
+package com.ydj.demo.permission.method1;
 
 import org.junit.Before;
 import org.junit.Test;
