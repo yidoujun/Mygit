@@ -1,8 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd6e521b-7fe3-44fe-a74c-b02225397d74" name="Default Changelist" comment="">
+    <list default="true" id="dd6e521b-7fe3-44fe-a74c-b02225397d74" name="Default Changelist" comment="说明：新增一个权限实现方法">
+      <change afterPath="$PROJECT_DIR$/logback/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__net_logstash_logback_logstash_logback_encoder_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_postgresql_postgresql_42_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_spring_tx_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_spring_web_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/logback.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/LogbackApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/aop/CustomLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/aop/ThirdLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/aop/ThirdPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/common/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/common/IErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/common/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/config/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/controller/InnerCallController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/controller/ThirdPartCallController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/dao/ArticleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/data/CustomDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/interceptor/RequestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/model/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/requestContext/RequestContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/service/CommonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/service/InnerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/service/ThirdPartCallService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/service/impl/CommonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/service/impl/InnerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/service/impl/ThirdPartCallServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/main/resources/mapper/ArticleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/ydj/demo/redis/RedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/ydj/demo/redis/RedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/ydj/demo/permission/Permission$PermissionBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/ydj/demo/permission/Permission.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/ydj/demo/permission/PermissonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/ydj/demo/redis/RedisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/ydj/demo/redis/RedisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +142,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -57,40 +175,71 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/javacode/logback-master" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
-  <component name="RunManager" selected="JUnit.StrategyTest">
-    <configuration name="CollectionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ydj.logback.data" />
+      <recent name="com.ydj.logback.interceptor" />
+      <recent name="com.ydj.logback.config" />
+      <recent name="com.ydj.logback.requestContext" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Mygit\leaningCode\demo\logback\src\main\java\com\ydj\logback" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LogbackApplication">
+    <configuration name="ChineseCharacterUtil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ydj.demo.collections.*" />
+          <option name="PATTERN" value="com.ydj.demo.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ydj.demo.collections" />
-      <option name="MAIN_CLASS_NAME" value="com.ydj.demo.collections.CollectionsTest" />
+      <option name="PACKAGE_NAME" value="com.ydj.demo.util" />
+      <option name="MAIN_CLASS_NAME" value="com.ydj.demo.util.ChineseCharacterUtil" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MenuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ydj.demo.redis.*" />
+          <option name="PATTERN" value="com.ydj.demo.permission.method2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ydj.demo.redis" />
-      <option name="MAIN_CLASS_NAME" value="com.ydj.demo.redis.RedisTest" />
+      <option name="PACKAGE_NAME" value="com.ydj.demo.permission.method2" />
+      <option name="MAIN_CLASS_NAME" value="com.ydj.demo.permission.method2.MenuTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuTest.treeList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ydj.demo.permission.method2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ydj.demo.permission.method2" />
+      <option name="MAIN_CLASS_NAME" value="com.ydj.demo.permission.method2.MenuTest" />
+      <option name="METHOD_NAME" value="treeList" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,22 +259,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTest.java8StreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ydj.demo.java8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ydj.demo.java8" />
-      <option name="MAIN_CLASS_NAME" value="com.ydj.demo.java8.StreamTest" />
-      <option name="METHOD_NAME" value="java8StreamTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SupplierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="common" />
       <extension name="coverage">
@@ -141,13 +274,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LogbackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="logback" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ydj.logback.LogbackApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MenuTest.treeList" />
+        <item itemvalue="JUnit.MenuTest" />
+        <item itemvalue="JUnit.ChineseCharacterUtil" />
         <item itemvalue="JUnit.StrategyTest" />
         <item itemvalue="JUnit.SupplierTest" />
-        <item itemvalue="JUnit.RedisTest" />
-        <item itemvalue="JUnit.CollectionsTest" />
-        <item itemvalue="JUnit.StreamTest.java8StreamTest" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +313,9 @@
       <workItem from="1587691534721" duration="1859000" />
       <workItem from="1587864256179" duration="4202000" />
       <workItem from="1587950807693" duration="4537000" />
-      <workItem from="1587958562888" duration="5492000" />
+      <workItem from="1587958562888" duration="8154000" />
+      <workItem from="1588038395256" duration="12723000" />
+      <workItem from="1588123584194" duration="13966000" />
     </task>
     <task id="LOCAL-00001" summary="说明：添加注释">
       <created>1586943161267</created>
@@ -238,7 +380,28 @@
       <option name="project" value="LOCAL" />
       <updated>1587967024231</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="说明：新增获取汉字首字母或全拼工具类">
+      <created>1588059262055</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588059262055</updated>
+    </task>
+    <task id="LOCAL-00011" summary="说明：新增一个权限实现方法">
+      <created>1588059314646</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588059314646</updated>
+    </task>
+    <task id="LOCAL-00012" summary="说明：新增一个权限实现方法">
+      <created>1588071842678</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588071842678</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,76 +422,106 @@
     <MESSAGE value="说明：新增了注解类和Collections和Supplier" />
     <MESSAGE value="说明：新增通用控制层返回Json格式数据工具类" />
     <MESSAGE value="说明：新增策咯模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="说明：新增策咯模式" />
+    <MESSAGE value="说明：新增获取汉字首字母或全拼工具类" />
+    <MESSAGE value="说明：新增一个权限实现方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="说明：新增一个权限实现方法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="926" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586948586995">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="926" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1586948586995" />
-    <state x="946" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1587965282798">
+    <state x="946" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1588161899269">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="946" y="214" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1587965282798" />
-    <state x="320" y="0" key="CommitChangelistDialog2" timestamp="1587967023346">
+    <state x="946" y="214" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1588161899269" />
+    <state x="432" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588159616913">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="320" y="0" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1587967023346" />
-    <state width="1396" height="199" key="GridCell.Tab.0.bottom" timestamp="1587967005249">
+    <state x="432" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.860@0.0.1440.860" timestamp="1588159616913" />
+    <state x="320" y="0" key="CommitChangelistDialog2" timestamp="1588071841834">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="199" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1587967005249" />
-    <state width="1396" height="199" key="GridCell.Tab.0.center" timestamp="1587967005249">
+    <state x="320" y="0" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1588071841834" />
+    <state x="500" y="184" key="FileChooserDialogImpl" timestamp="1588160143816">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="199" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1587967005249" />
-    <state width="1396" height="199" key="GridCell.Tab.0.left" timestamp="1587967005249">
+    <state x="500" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1588160143816" />
+    <state width="1396" height="191" key="GridCell.Tab.0.bottom" timestamp="1588162120070">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="199" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1587967005249" />
-    <state width="1396" height="199" key="GridCell.Tab.0.right" timestamp="1587967005249">
+    <state width="1396" height="191" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588162120070" />
+    <state width="1396" height="191" key="GridCell.Tab.0.center" timestamp="1588162120069">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="199" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1587967005249" />
-    <state width="1396" height="199" key="GridCell.Tab.1.bottom" timestamp="1587967005250">
+    <state width="1396" height="191" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1588162120069" />
+    <state width="1396" height="191" key="GridCell.Tab.0.left" timestamp="1588162120069">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="199" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1587967005250" />
-    <state width="1396" height="199" key="GridCell.Tab.1.center" timestamp="1587967005249">
+    <state width="1396" height="191" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1588162120069" />
+    <state width="1396" height="191" key="GridCell.Tab.0.right" timestamp="1588162120069">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="199" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1587967005249" />
-    <state width="1396" height="199" key="GridCell.Tab.1.left" timestamp="1587967005249">
+    <state width="1396" height="191" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1588162120069" />
+    <state width="1396" height="191" key="GridCell.Tab.1.bottom" timestamp="1588162120072">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="199" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1587967005249" />
-    <state width="1396" height="199" key="GridCell.Tab.1.right" timestamp="1587967005250">
+    <state width="1396" height="191" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588162120072" />
+    <state width="1396" height="191" key="GridCell.Tab.1.center" timestamp="1588162120071">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="199" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1587967005250" />
+    <state width="1396" height="191" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1588162120071" />
+    <state width="1396" height="191" key="GridCell.Tab.1.left" timestamp="1588162120071">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="191" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1588162120071" />
+    <state width="1396" height="191" key="GridCell.Tab.1.right" timestamp="1588162120071">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="191" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1588162120071" />
+    <state width="1396" height="191" key="GridCell.Tab.2.bottom" timestamp="1588162120072">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="191" key="GridCell.Tab.2.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588162120072" />
+    <state width="1396" height="191" key="GridCell.Tab.2.center" timestamp="1588162120072">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="191" key="GridCell.Tab.2.center/0.0.1440.860@0.0.1440.860" timestamp="1588162120072" />
+    <state width="1396" height="191" key="GridCell.Tab.2.left" timestamp="1588162120072">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="191" key="GridCell.Tab.2.left/0.0.1440.860@0.0.1440.860" timestamp="1588162120072" />
+    <state width="1396" height="191" key="GridCell.Tab.2.right" timestamp="1588162120072">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="191" key="GridCell.Tab.2.right/0.0.1440.860@0.0.1440.860" timestamp="1588162120072" />
     <state x="221" y="61" key="SettingsEditor" timestamp="1587025130277">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="221" y="61" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1587025130277" />
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1587957337569">
+    <state width="501" height="446" key="SwitcherDM" timestamp="1588148900023">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1587957337569" />
-    <state x="537" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1587958576254">
+    <state width="501" height="446" key="SwitcherDM/0.0.1440.860@0.0.1440.860" timestamp="1588148900023" />
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1588071849361">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="537" y="321" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1587958576254" />
-    <state x="90" y="123" key="new project wizard" timestamp="1586937286353">
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1588071849361" />
+    <state x="537" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1588123603653">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="90" y="123" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1586937286353" />
+    <state x="537" y="321" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1588123603653" />
+    <state x="90" y="123" key="new project wizard" timestamp="1588145404034">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="90" y="123" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1588145404034" />
     <state x="376" y="190" key="run.anything.popup" timestamp="1587040024017">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="376" y="190" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1587040024017" />
-    <state x="713" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1587966073895">
+    <state x="713" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1588148380035">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="713" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1587966073895" />
+    <state x="713" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1588148380035" />
   </component>
 </project>

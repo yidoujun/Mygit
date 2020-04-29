@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ydj.logback.dao.ArticleDao">
+
+    <select id="list" resultType="com.ydj.logback.model.Article">
+        SELECT
+            article_title as articleTitle,
+            article_author as articleAuthor,
+            article_pub as articlePub,
+            article_reference as articleReference,
+            article_read_num as articleReadNum,
+            article_like as articleLike
+        FROM
+            t_article
+        LIMIT #{pageSize} OFFSET #{pageNum}
+    </select>
+
+</mapper>
