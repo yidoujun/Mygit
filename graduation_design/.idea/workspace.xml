@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a94e6e2-94c9-491c-ae07-a0be3e22c5ba" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YxYpsCOUEKfN2zdjQX3s0jD9l9" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/design/liepinAnd58job" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pythonProgram\test\graduation_design\design\liepinAnd58job" />
+      <recent name="D:\pythonProgram\test\graduation_design\test\matplotlib" />
+      <recent name="D:\pythonProgram\test\graduation_design\design\liepin" />
+      <recent name="D:\pythonProgram\test\graduation_design\design\58job" />
+      <recent name="D:\pythonProgram\test\graduation_design\design\deal\file" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pythonProgram\test\graduation_design\design\deal\file" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.dataAnalysis">
+    <configuration name="code" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="graduation_design" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/matplotlib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/matplotlib/code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dataAnalysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="graduation_design" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/design/liepinAnd58job" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/design/liepinAnd58job/dataAnalysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pre_58job" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="graduation_design" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/design/58job" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/design/58job/pre_58job.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pre_liepin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="graduation_design" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/design/liepin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/design/liepin/pre_liepin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="textDeal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="graduation_design" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/design/liepinAnd58job" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/design/liepinAnd58job/textDeal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.pre_58job" />
+      <item itemvalue="Python.pre_liepin" />
+      <item itemvalue="Python.dataAnalysis" />
+      <item itemvalue="Python.code" />
+      <item itemvalue="Python.textDeal" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.dataAnalysis" />
+        <item itemvalue="Python.textDeal" />
+        <item itemvalue="Python.code" />
+        <item itemvalue="Python.pre_liepin" />
+        <item itemvalue="Python.pre_58job" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a94e6e2-94c9-491c-ae07-a0be3e22c5ba" name="Default Changelist" comment="" />
+      <created>1583885898777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583885898777</updated>
+      <workItem from="1583885900298" duration="1504000" />
+      <workItem from="1583938542949" duration="3873000" />
+      <workItem from="1583969674998" duration="4069000" />
+      <workItem from="1583988239154" duration="2074000" />
+      <workItem from="1584023087323" duration="5617000" />
+      <workItem from="1584056125393" duration="3271000" />
+      <workItem from="1584238377173" duration="10012000" />
+      <workItem from="1584274936753" duration="10286000" />
+      <workItem from="1584369378051" duration="712000" />
+      <workItem from="1584396993579" duration="7549000" />
+      <workItem from="1584483467649" duration="4108000" />
+      <workItem from="1584572276604" duration="4563000" />
+      <workItem from="1584658923786" duration="1795000" />
+      <workItem from="1584708413558" duration="995000" />
+      <workItem from="1584748607901" duration="35507000" />
+      <workItem from="1584792717549" duration="1772000" />
+      <workItem from="1584794537136" duration="3779000" />
+      <workItem from="1584801243671" duration="930000" />
+      <workItem from="1584840644202" duration="1784000" />
+      <workItem from="1584842473957" duration="21798000" />
+      <workItem from="1585004234675" duration="4606000" />
+      <workItem from="1585174735822" duration="1774000" />
+      <workItem from="1585176560714" duration="3922000" />
+      <workItem from="1585265509071" duration="1936000" />
+      <workItem from="1585351708112" duration="2263000" />
+      <workItem from="1585449684380" duration="3328000" />
+      <workItem from="1585611158475" duration="1041000" />
+      <workItem from="1585782486813" duration="4415000" />
+      <workItem from="1585869483369" duration="4103000" />
+      <workItem from="1585963833374" duration="1784000" />
+      <workItem from="1585965669211" duration="15888000" />
+      <workItem from="1586050279459" duration="13232000" />
+      <workItem from="1586132725950" duration="22256000" />
+      <workItem from="1586212348317" duration="5516000" />
+      <workItem from="1586299647610" duration="5881000" />
+      <workItem from="1586386385364" duration="5325000" />
+      <workItem from="1586391780445" duration="67000" />
+      <workItem from="1586472606960" duration="6347000" />
+      <workItem from="1586560878017" duration="1775000" />
+      <workItem from="1586562704669" duration="3176000" />
+      <workItem from="1586650853088" duration="9711000" />
+      <workItem from="1586696524908" duration="1687000" />
+      <workItem from="1586698374793" duration="4687000" />
+      <workItem from="1586733962935" duration="2698000" />
+      <workItem from="1586786054398" duration="607000" />
+      <workItem from="1586819505661" duration="2683000" />
+      <workItem from="1586872621306" duration="623000" />
+      <workItem from="1587178945595" duration="1267000" />
+      <workItem from="1587282944306" duration="6048000" />
+      <workItem from="1587337958404" duration="4464000" />
+      <workItem from="1587426496103" duration="1551000" />
+      <workItem from="1587428346085" duration="1171000" />
+      <workItem from="1587819860895" duration="1221000" />
+      <workItem from="1588200122846" duration="55000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/design/deal/deal_data.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/graduation_design$dataAnalysis.coverage" NAME="dataAnalysis Coverage Results" MODIFIED="1587820390862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/design/liepinAnd58job" />
+    <SUITE FILE_PATH="coverage/graduation_design$deal_city_location.coverage" NAME="deal_city_location Coverage Results" MODIFIED="1584276440090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/design/deal" />
+    <SUITE FILE_PATH="coverage/graduation_design$read_data.coverage" NAME="read_data Coverage Results" MODIFIED="1584774189841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/design/read" />
+    <SUITE FILE_PATH="coverage/graduation_design$companyNum_division.coverage" NAME="companyNum_division Coverage Results" MODIFIED="1584777922145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/design/deal" />
+    <SUITE FILE_PATH="coverage/graduation_design$deal_data.coverage" NAME="deal_data Coverage Results" MODIFIED="1584759279472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/design/deal" />
+    <SUITE FILE_PATH="coverage/graduation_design$.coverage" NAME="城市与区位映射 Coverage Results" MODIFIED="1584248679540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/design/deal" />
+    <SUITE FILE_PATH="coverage/graduation_design$deal_data__1_.coverage" NAME="deal_data (1) Coverage Results" MODIFIED="1584397251286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/design/deal" />
+    <SUITE FILE_PATH="coverage/graduation_design$city_division.coverage" NAME="city_division Coverage Results" MODIFIED="1584485741165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/design/deal" />
+    <SUITE FILE_PATH="coverage/graduation_design$year_education_division.coverage" NAME="year_education_division Coverage Results" MODIFIED="1584769091730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/design/deal" />
+    <SUITE FILE_PATH="coverage/graduation_design$pre_58job.coverage" NAME="pre_58job Coverage Results" MODIFIED="1586155040376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/design/58job" />
+    <SUITE FILE_PATH="coverage/graduation_design$pre_liepin.coverage" NAME="pre_liepin Coverage Results" MODIFIED="1586161446875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/design/liepin" />
+    <SUITE FILE_PATH="coverage/graduation_design$code.coverage" NAME="code Coverage Results" MODIFIED="1586216878282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/matplotlib" />
+    <SUITE FILE_PATH="coverage/graduation_design$test_flask.coverage" NAME="test_flask Coverage Results" MODIFIED="1584801427972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/design/read" />
+    <SUITE FILE_PATH="coverage/graduation_design$testJieBa.coverage" NAME="testJieBa Coverage Results" MODIFIED="1584853026766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/design/liepin" />
+    <SUITE FILE_PATH="coverage/graduation_design$stopWordDeal.coverage" NAME="stopWordDeal Coverage Results" MODIFIED="1586134402085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/design/liepin" />
+    <SUITE FILE_PATH="coverage/graduation_design$salary_division.coverage" NAME="salary_division Coverage Results" MODIFIED="1584782413560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/design/deal" />
+    <SUITE FILE_PATH="coverage/graduation_design$test.coverage" NAME="test Coverage Results" MODIFIED="1584709234989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/design/util" />
+    <SUITE FILE_PATH="coverage/graduation_design$location_division.coverage" NAME="location_division Coverage Results" MODIFIED="1584285790238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/design/deal" />
+    <SUITE FILE_PATH="coverage/graduation_design$textDeal.coverage" NAME="textDeal Coverage Results" MODIFIED="1586737914524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/design/liepinAnd58job" />
+  </component>
+</project>
