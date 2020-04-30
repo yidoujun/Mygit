@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="logback" />
         <module name="common" />
+        <module name="eblog" />
         <module name="parent" />
         <module name="demo" />
       </profile>
@@ -17,6 +18,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common" options="-parameters" />
+      <module name="eblog" options="-parameters" />
       <module name="logback" options="-parameters" />
       <module name="parent" options="-parameters" />
     </option>

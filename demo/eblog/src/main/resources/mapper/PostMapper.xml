@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eblog.mapper.PostMapper">
+
+    <select id="getList" resultType="com.eblog.entity.Post">
+        SELECT
+            id as id,
+            title as title,
+            content as content
+        FROM
+            m_post
+        LIMIT #{pageNum}, #{pageSize}
+    </select>
+
+    <select id="getListByWeek" resultType="com.eblog.entity.Post">
+        SELECT
+            p.*
+        FROM
+            m_post p
+        WHERE
+            DATE_SUB(CURDATE(), INTERVAL 7 DAY) &lt;= DATE(created)
+
+    </select>
+
+</mapper>

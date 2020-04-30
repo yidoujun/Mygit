@@ -2,121 +2,202 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd6e521b-7fe3-44fe-a74c-b02225397d74" name="Default Changelist" comment="说明：新增一个权限实现方法">
-      <change afterPath="$PROJECT_DIR$/logback/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__net_logstash_logback_logstash_logback_encoder_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_postgresql_postgresql_42_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_spring_tx_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_spring_web_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/logback.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/LogbackApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/aop/CustomLogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/aop/ThirdLogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/aop/ThirdPart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/common/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/common/IErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/common/ResultCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/config/InterceptorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/controller/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/controller/InnerCallController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/controller/ThirdPartCallController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/dao/ArticleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/data/CustomDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/interceptor/RequestInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/model/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/requestContext/RequestContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/service/ArticleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/service/CommonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/service/InnerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/service/ThirdPartCallService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/service/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/service/impl/CommonServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/service/impl/InnerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/java/com/ydj/logback/service/impl/ThirdPartCallServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback/src/main/resources/mapper/ArticleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/java/com/eblog/EblogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/java/com/eblog/common/KeyConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/java/com/eblog/common/result/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/java/com/eblog/common/result/IErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/java/com/eblog/common/result/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/java/com/eblog/config/ContextStartup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/java/com/eblog/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/java/com/eblog/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/java/com/eblog/controller/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/java/com/eblog/controller/RouterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/java/com/eblog/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/java/com/eblog/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/java/com/eblog/entity/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/java/com/eblog/entity/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/java/com/eblog/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/java/com/eblog/entity/UserAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/java/com/eblog/entity/UserCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/java/com/eblog/entity/UserMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/java/com/eblog/mapper/PostMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/java/com/eblog/service/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/java/com/eblog/service/impl/PostServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/java/com/eblog/utils/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/application-local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/mapper/PostMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/spy.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/css/full.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/css/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/css/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/css/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/css/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/css/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/images/avatar/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/images/avatar/00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/images/avatar/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/images/avatar/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/images/avatar/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/images/avatar/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/images/avatar/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/images/avatar/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/images/avatar/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/images/avatar/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/images/avatar/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/images/avatar/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/images/avatar/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/images/avatar/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/images/case.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/images/fly.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/images/logo-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/images/other/1437100018023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/images/other/study-a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/images/weixin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/js/chat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/js/im.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/js/sockjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/js/stomp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/modules/layim/html/chatlog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/modules/layim/html/find.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/modules/layim/html/getmsg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/modules/layim/html/msgbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/modules/layim/layim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/modules/layim/mobile/layim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/modules/layim/skin/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/modules/layim/skin/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/modules/layim/skin/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/modules/layim/skin/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/modules/layim/skin/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/modules/layim/skin/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/modules/layim/voice/default.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/css/modules/layim/voice/default.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/modules/layim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/layui/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/mods/case.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/mods/face.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/mods/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/mods/jie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/static.res/mods/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/templates/error.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/templates/inc/footer.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/templates/inc/header-panel.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/templates/inc/header.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/templates/inc/layout.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/templates/inc/right.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eblog/src/main/resources/templates/index.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/ydj/demo/redis/RedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/ydj/demo/redis/RedisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/ydj/demo/permission/Permission$PermissionBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/ydj/demo/permission/Permission.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/ydj/demo/permission/PermissonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/ydj/demo/redis/RedisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/ydj/demo/redis/RedisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logback/logback.iml" beforeDir="false" afterPath="$PROJECT_DIR$/logback/logback.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logback/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logback/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -144,6 +225,7 @@
       <list>
         <option value="Enum" />
         <option value="AnnotationType" />
+        <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -183,21 +265,29 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/javacode/logback-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/eblog/src/main/resources/templates/inc" />
     <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.eblog.entity" />
       <recent name="com.ydj.logback.data" />
       <recent name="com.ydj.logback.interceptor" />
       <recent name="com.ydj.logback.config" />
       <recent name="com.ydj.logback.requestContext" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Mygit\leaningCode\demo\logback\src\main\java\com\ydj\logback" />
+      <recent name="D:\Mygit\leaningCode\demo\eblog\src\main\resources\templates\inc" />
+      <recent name="D:\Mygit\leaningCode\demo\eblog\src\main\resources\static.res\mods" />
+      <recent name="D:\Mygit\leaningCode\demo\eblog\src\main\resources\static.res\layui" />
+      <recent name="D:\Mygit\leaningCode\demo\eblog\src\main\resources\static.res\images" />
+      <recent name="D:\Mygit\leaningCode\demo\eblog\src\main\resources\static.res\js" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.LogbackApplication">
+  <component name="RunManager" selected="Spring Boot.EblogApplication">
     <configuration name="ChineseCharacterUtil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="common" />
       <extension name="coverage">
@@ -259,17 +349,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupplierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="common" />
+    <configuration name="EblogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eblog" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ydj.demo.java8.*" />
+          <option name="PATTERN" value="com.eblog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ydj.demo.java8" />
-      <option name="MAIN_CLASS_NAME" value="com.ydj.demo.java8.SupplierTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eblog.EblogApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -283,11 +371,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.EblogApplication" />
         <item itemvalue="JUnit.MenuTest.treeList" />
         <item itemvalue="JUnit.MenuTest" />
         <item itemvalue="JUnit.ChineseCharacterUtil" />
         <item itemvalue="JUnit.StrategyTest" />
-        <item itemvalue="JUnit.SupplierTest" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +403,8 @@
       <workItem from="1587950807693" duration="4537000" />
       <workItem from="1587958562888" duration="8154000" />
       <workItem from="1588038395256" duration="12723000" />
-      <workItem from="1588123584194" duration="13966000" />
+      <workItem from="1588123584194" duration="17937000" />
+      <workItem from="1588209738014" duration="22441000" />
     </task>
     <task id="LOCAL-00001" summary="说明：添加注释">
       <created>1586943161267</created>
@@ -427,14 +516,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="说明：新增一个权限实现方法" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="926" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586948586995">
+    <state x="897" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588231804774">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="926" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1586948586995" />
-    <state x="946" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1588161899269">
+    <state x="897" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1588231804774" />
+    <state x="946" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1588232949060">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="946" y="214" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1588161899269" />
+    <state x="946" y="214" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1588232949060" />
     <state x="432" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588159616913">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -443,58 +532,58 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="320" y="0" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1588071841834" />
-    <state x="500" y="184" key="FileChooserDialogImpl" timestamp="1588160143816">
+    <state x="500" y="184" key="FileChooserDialogImpl" timestamp="1588211346718">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1588160143816" />
-    <state width="1396" height="191" key="GridCell.Tab.0.bottom" timestamp="1588162120070">
+    <state x="500" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1588211346718" />
+    <state width="1396" height="130" key="GridCell.Tab.0.bottom" timestamp="1588239269747">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="191" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588162120070" />
-    <state width="1396" height="191" key="GridCell.Tab.0.center" timestamp="1588162120069">
+    <state width="1396" height="130" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588239269747" />
+    <state width="1396" height="130" key="GridCell.Tab.0.center" timestamp="1588239269747">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="191" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1588162120069" />
-    <state width="1396" height="191" key="GridCell.Tab.0.left" timestamp="1588162120069">
+    <state width="1396" height="130" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1588239269747" />
+    <state width="1396" height="130" key="GridCell.Tab.0.left" timestamp="1588239269747">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="191" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1588162120069" />
-    <state width="1396" height="191" key="GridCell.Tab.0.right" timestamp="1588162120069">
+    <state width="1396" height="130" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1588239269747" />
+    <state width="1396" height="130" key="GridCell.Tab.0.right" timestamp="1588239269747">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="191" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1588162120069" />
-    <state width="1396" height="191" key="GridCell.Tab.1.bottom" timestamp="1588162120072">
+    <state width="1396" height="130" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1588239269747" />
+    <state width="1396" height="130" key="GridCell.Tab.1.bottom" timestamp="1588239269747">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="191" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588162120072" />
-    <state width="1396" height="191" key="GridCell.Tab.1.center" timestamp="1588162120071">
+    <state width="1396" height="130" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588239269747" />
+    <state width="1396" height="130" key="GridCell.Tab.1.center" timestamp="1588239269747">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="191" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1588162120071" />
-    <state width="1396" height="191" key="GridCell.Tab.1.left" timestamp="1588162120071">
+    <state width="1396" height="130" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1588239269747" />
+    <state width="1396" height="130" key="GridCell.Tab.1.left" timestamp="1588239269747">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="191" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1588162120071" />
-    <state width="1396" height="191" key="GridCell.Tab.1.right" timestamp="1588162120071">
+    <state width="1396" height="130" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1588239269747" />
+    <state width="1396" height="130" key="GridCell.Tab.1.right" timestamp="1588239269747">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="191" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1588162120071" />
-    <state width="1396" height="191" key="GridCell.Tab.2.bottom" timestamp="1588162120072">
+    <state width="1396" height="130" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1588239269747" />
+    <state width="1396" height="130" key="GridCell.Tab.2.bottom" timestamp="1588239269748">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="191" key="GridCell.Tab.2.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588162120072" />
-    <state width="1396" height="191" key="GridCell.Tab.2.center" timestamp="1588162120072">
+    <state width="1396" height="130" key="GridCell.Tab.2.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588239269748" />
+    <state width="1396" height="130" key="GridCell.Tab.2.center" timestamp="1588239269748">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="191" key="GridCell.Tab.2.center/0.0.1440.860@0.0.1440.860" timestamp="1588162120072" />
-    <state width="1396" height="191" key="GridCell.Tab.2.left" timestamp="1588162120072">
+    <state width="1396" height="130" key="GridCell.Tab.2.center/0.0.1440.860@0.0.1440.860" timestamp="1588239269748" />
+    <state width="1396" height="130" key="GridCell.Tab.2.left" timestamp="1588239269748">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="191" key="GridCell.Tab.2.left/0.0.1440.860@0.0.1440.860" timestamp="1588162120072" />
-    <state width="1396" height="191" key="GridCell.Tab.2.right" timestamp="1588162120072">
+    <state width="1396" height="130" key="GridCell.Tab.2.left/0.0.1440.860@0.0.1440.860" timestamp="1588239269748" />
+    <state width="1396" height="130" key="GridCell.Tab.2.right" timestamp="1588239269748">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1396" height="191" key="GridCell.Tab.2.right/0.0.1440.860@0.0.1440.860" timestamp="1588162120072" />
+    <state width="1396" height="130" key="GridCell.Tab.2.right/0.0.1440.860@0.0.1440.860" timestamp="1588239269748" />
     <state x="221" y="61" key="SettingsEditor" timestamp="1587025130277">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -507,21 +596,21 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1588071849361" />
-    <state x="537" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1588123603653">
+    <state x="537" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1588209751397">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="537" y="321" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1588123603653" />
-    <state x="90" y="123" key="new project wizard" timestamp="1588145404034">
+    <state x="537" y="321" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1588209751397" />
+    <state x="151" y="190" key="new project wizard" timestamp="1588213348373">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="90" y="123" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1588145404034" />
+    <state x="151" y="190" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1588213348373" />
     <state x="376" y="190" key="run.anything.popup" timestamp="1587040024017">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="376" y="190" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1587040024017" />
-    <state x="713" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1588148380035">
+    <state x="713" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1588234249714">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="713" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1588148380035" />
+    <state x="713" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1588234249714" />
   </component>
 </project>
