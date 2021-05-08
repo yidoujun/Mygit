@@ -24,7 +24,7 @@
         <grpc.version>1.19.0</grpc.version>
         <reactive.version>1.0.2</reactive.version>
         <spring.version>5.2.2.RELEASE</spring.version>
-        <shiro.version>1.5.2</shiro.version>
+        <shiro.version>1.6.0</shiro.version>
         <slf4j-api.version>1.7.24</slf4j-api.version>
         <slf4j-simple.version>1.7.25</slf4j-simple.version>
         <lombok.version>1.16.22</lombok.version>
