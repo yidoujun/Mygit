@@ -28,7 +28,7 @@
         <slf4j-api.version>1.7.24</slf4j-api.version>
         <slf4j-simple.version>1.7.25</slf4j-simple.version>
         <lombok.version>1.16.22</lombok.version>
-        <json.version>1.2.47</json.version>
+        <json.version>1.2.83</json.version>
         <commons-lang3.version>3.4</commons-lang3.version>
         <reactor.version>3.3.1.RELEASE</reactor.version>
         <maven.compiler.source>1.8</maven.compiler.source>
